@@ -1,0 +1,9 @@
+Flask
+gunicorn
+tensorflow
+keras
+wfdb
+numpy
+scikit-learn
+neurokit2
+pandas
