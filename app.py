@@ -1,4 +1,3 @@
-from flask_ngrok import run_with_ngrok
 from flask import Flask, request, render_template
 import pandas as pd
 import tensorflow as tf
@@ -158,4 +157,4 @@ def main():
 
 if __name__ == "__main__":
     app.secret_key = os.urandom(100)
-    app.run(host='127.0.0.1', port=5000, debug = True )
+    app.run(host='0.0.0.0', port=8080, debug = True )
